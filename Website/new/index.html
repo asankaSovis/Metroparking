@@ -1,0 +1,39 @@
+<!-- This is the signup webpage.
+This website loads when the user clicks on login or signup links.
+This will handle everything related to creating a new user and logging in
+of an existing user -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h2> Choose a Time and Date</h2>
+            <input type="date" id="date">
+            <select name="Time" id="start-time">
+                <option value="9">9 AM</option>
+                <option value="10">10 AM</option>
+                <option value="11">11 AM</option>
+                <option value="12">12 AM</option>
+            </select>
+            <br><br>
+            <select name="Time" id="end-time">
+                <option value="1">1 hour</option>
+                <option value="2">2 hours</option>
+            </select>
+            <br><br>
+            <button id="btn" class="form__button"> <!-- Login button -->
+                Book Now
+            </button>
+        </center>
+    </div>
+    <script src="./main.js"></script>
+</body>

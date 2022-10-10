@@ -1,0 +1,42 @@
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Parking admin.exe.config
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Parking admin.exe
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Parking admin.pdb
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.csproj.AssemblyReference.cache
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.Properties.Resources.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.csproj.GenerateResource.cache
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.csproj.CoreCompileInputs.cache
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.exe
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.pdb
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.frmAdminPanel.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.frmLogin.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Google.Protobuf.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\ZstdNet.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Memory.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Buffers.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\MySql.Data.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.frmSlots.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking admin.csproj.CopyComplete
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.frmUserAcc.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\obj\Debug\Parking_admin.AboutPage.resources
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Text.Json.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.ValueTuple.dll
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Buffers.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Memory.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Text.Json.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\akash\source\repos\Parking admin\Parking admin\bin\Debug\System.ValueTuple.xml

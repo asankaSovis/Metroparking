@@ -1,0 +1,73 @@
+<!-- This is the signup webpage.
+This website loads when the user clicks on login or signup links.
+This will handle everything related to creating a new user and logging in
+of an existing user -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="shortcut icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <!-- Login form ID=login -->
+            <h1 class="form__title">Login</h1> <!-- Title of the form -->
+            <div class="form__input-group"> <!-- Input for the email address. ID=email NAME=email -->
+                <input type="text" id="email" class="form__input" autofocus placeholder="Email" name="email">
+            </div>
+            <div class="form__input-group"> <!-- Input for the password. ID=password NAME=password -->
+                <input type="password" id="password" class="form__input" autofocus placeholder="Password" name="password">
+            </div>
+            <div class="form__message form__message--error"></div> <!-- Message for the user. Set through CSS -->
+            <button class="form__button" type="login"> <!-- Login button -->
+                <span class="form__button--text">Login</span>
+            </button>
+            <p class="form__text" id="userpages"> <!-- Link to Password Reset/Verification. ID=userpages -->
+                <a href="#" class="form__link" id="userpages__click">Forgot your password?</a>
+            </p>
+            <p class="form__text"> <!-- Signup link. ID=linkSignup -->
+                <a class="form__link" id="linkSignup" class="form__link">Don't have an account? Signup</a>
+            </p>
+        </form>
+
+        <form class="form form--hidden" id="signup">
+            <!-- Signup form ID=signup -->
+            <h1 class="form__title">Signup</h1> <!-- Title of the form -->
+            <div class="form__input-group"> <!-- Input for the username. ID=signupUsername NAME=username -->
+                <input type="text" class="form__input" id="signupUsername" autofocus placeholder="Username" name="username">
+            </div>
+            <div class="form__input-group"> <!-- Input for the email. ID=signupEmail NAME=email -->
+                <input type="text" class="form__input" id="signupEmail" autofocus placeholder="Email" name="email">
+            </div>
+            <div class="form__input-group"> <!-- Input for the password. ID=signupPassword NAME=password -->
+                <input type="password" class="form__input" id="signupPassword" autofocus placeholder="Password" name="password">
+            </div>
+            <div class="form__input-group"> <!-- Input to confirm password. ID=signupConformPassword NAME=conform-password -->
+                <input type="password" class="form__input" id="signupConfirmPassword" autofocus placeholder="Confirm Password" name="confirm-password">
+            </div>
+            <div class="form__input-group"> <!-- Input for the email. ID=signupEmail NAME=email -->
+                <input type="text" class="form__input" id="vehicleID" autofocus placeholder="Vehicle ID" name="vehicleID">
+            </div>
+            <div class="form__radio-group"> <!-- Radio buttons to select gender (Male, Female) ID1=male ID2=female -->
+                <input class="form__radio--input" type="radio" value="0" name="gender" id="male" checked=true>
+                <label class="form__radio--label" for="male">Male</label>
+                <input class="form__radio--input" type="radio" value="1" name="gender" id="female">
+                <label class="form__radio--label" for="female">Female</label>
+            </div>
+            <div class="form__message form__message--error"></div> <!-- Message for user. Set through CSS -->
+            <button class="form__button" type="signup"> <!-- Signup button -->
+                <span class="form__button--text">Signup</span>
+            </button>
+            <p class="form__text"> <!-- Login link ID=linkLogin -->
+                <a class="form__link" id="linkLogin" class="form__link">Already have an account? Login</a>
+            </p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>

@@ -1,0 +1,558 @@
+/* The main css styling to be used across the website.
+This file is referenced by all other HTML files in the website. */
+
+html,
+body {
+    /* Defining the colour palette and styling */
+    --color-primary: #c3aad1;
+    --color-primary-dark: #929fd1;
+    --color-primary-light: #e7c7d7;
+    --colour-secondary: #9ad3ca;
+    --colour-secondary-light: #d7eae4;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 25px;
+
+    /* Defining the main parameters of the website */
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15px;
+    background: #333333;
+    --nav-height: 70px;
+}
+
+/* These css are common for all webpages */
+
+.wrapper {
+    /* Body of each page */
+    background: #ffffff;
+    overflow: auto;
+}
+
+.container {
+    /* Body of each page */
+    margin: var(--nav-height) auto auto 0;
+    /* max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box; */
+}
+
+.nav__link {
+    /* Styling for the form__link class */
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__button {
+    /* Styling for the form__button class */
+    position: relative;
+    width: 300px;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.form__button:hover {
+    /* Styling for the hover action of form__button class */
+    background: var(--color-primary-dark);
+}
+
+.form__button:active {
+    /* Styling for the active action of form__button class */
+    transform: scale(0.98);
+}
+
+.form__button:disabled {
+    /* Styling for the disabled action of form__button class */
+    background: var(--color-primary-light);
+    cursor: auto;
+}
+
+.form__button--text {
+    /* Styling for the form__button--text parameter */
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+/* Css for overlay */
+
+#overlay {
+    /* This section is a hidden section that is shown when needed to show notifications */
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlay__form {
+    /* Form of the overlay section */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: whitesmoke;
+    border-radius: var(--border-radius);
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Header */
+
+.nav {
+    /* Top level of the header */
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--color-primary-dark);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.nav__profile {
+    /* Profile image of user */
+    margin-left:auto; margin-right:0;;
+}
+
+/* .nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+} */
+
+.nav__link {
+    /* Left side links of header */
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+/* profile__login--hidden {
+    display: none;
+} */
+
+.profile__login {
+    /* Login link */
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.nav__logo {
+    /* Akaradiya logo */
+    margin: 1em;
+    height: calc(var(--nav-height) - 20px);
+    width: calc(var(--nav-height) - 20px);
+    cursor: pointer;
+}
+
+.nav__userimage {
+    /* Profile picture of user */
+    height: calc(var(--nav-height) - 20px);
+    width: calc(var(--nav-height) - 20px);
+}
+
+/* Footer */
+.footer__main {
+    /* Main section of footer */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__text {
+    /* Top text of footer */
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer__sections {
+    /* Section below footer text */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.footer__section {
+    /* Each section under the footer */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    /* Links under each footer topic */
+    color: #c1c1c1;
+    font-size:15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer__title {
+    /* Titles of each footer section */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer__copyright {
+    /* Copyright notice */
+    color: #797979;
+    text-align:center;
+    font-size:10px;
+    margin-top: 10px;
+}
+
+/* These are styling for mostly homepage related css */
+
+.hero {
+    /* The hero image of the homepage */
+    top: 0;
+    background-image: url("./assets/images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - var(--nav-height));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.item__column {
+    /* Each section under the hero secton in homepage */
+    top: 0;
+    width:50%;
+    height: calc((100vh - var(--nav-height)) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.image__column {
+    /* Image column (Left or right) of each section under the hero secton in homepage */
+    background: var(--color-primary-dark);
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home__image {
+    /* Image of each section under the hero secton in homepage */
+    width: 50%;
+}
+
+.left__item {
+    /*Content of each section under the hero secton in homepage */
+    display: flex;
+    align-items: stretch;
+}
+
+.para__text {
+    /*Paragraphs of each section under the hero secton in homepage */
+    padding: 0 30% 20px;
+    text-align: center;
+    color: #910d0d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.head__text {
+    /*Text of heading of each section under the hero secton in homepage */
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 50px;
+    padding: 0 30%;
+    text-align: center;
+    color: #931c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* The voting page css*/
+
+.section {
+    /* Each horizontal section */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row_section {
+    /* Each column section in horizontal section */
+    display: flex;
+    flex-direction: row; 
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row_section--button {
+    /* Button in each row section */
+    display: flex;
+    flex-direction: row; 
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section__center {
+    /* Button in each row section centered */
+    margin: 0 auto;
+}
+
+.form__input {
+    /* Styling for the form__input class */
+    display: block;
+    width: 80%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    /* Styling for the focus action of form__input class */
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form__input--error {
+    /* Styling for the form__input--error parameter */
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.word__main {
+    /* Word that is loaded  */
+    font-family: 'Zen Antique Soft', serif;
+    width: 80%;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.def__main {
+    /* Each definition */
+    font-family: 'Zen Antique Soft', serif;
+    width: 80%;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+hr {
+    /* The vertical separator */
+    margin-left: 5%;
+    margin-right: 5%;
+	border-bottom: solid var(--color-primary-dark);
+}
+
+.icon__button {
+    /* Styling for the icon buttons */
+    position: relative;
+    padding: 1rem 2rem;
+    margin: auto auto;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.icon__button:hover {
+    /* Styling for the hover action of icon buttons */
+    background: #eeeeee;
+}
+
+.icon__button:active {
+    /* Styling for the active action of icon buttons */
+    transform: scale(0.98);
+}
+
+.icon__button:disabled {
+    /* Styling for the disabled action of icon buttons */
+    background: var(--color-primary-light);
+    cursor: auto;
+}
+
+.icon__button--text {
+    /* Styling for the icon buttons text (Not used for now) */
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+/* Pofile Page */
+
+.container__profile {
+    /* Body of each page */
+    padding-top: 70px;
+    background-image: url("./assets/images/users/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: stretch;
+}
+
+.name__column {
+    /* Each section under the hero secton in homepage */
+    top: 0;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.profile__column {
+    /* Image column (Left or right) of each section under the hero secton in homepage */
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__text {
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.badges__container {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colour-secondary-light);
+    padding-top: 5px;
+}
+
+.carousel__container{
+    width: 100%;
+    height: 70vh;
+    background-color: var(--colour-secondary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__box {
+    width: 350px;
+    height: 400px;
+    background-color: var(--color-primary-light);
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+    border-radius: var(--border-radius);
+}
+
+.box__image {
+    height: 250px;
+    max-height: 100%;
+}
+
+.box__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.box__details p {
+    color: #6a6a74;
+    text-align: center;
+}
+
+.box__title {
+    color: #32323e;
+    font-weight: nold;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.achievers__div {
+    width: 100%;
+    height: 50px;
+    background-color: var(--colour-secondary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    width: 50%;
+    height: 10px;
+    background: #9cbab4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress__fill {
+    width: 0%;
+    height: 100%;
+    background: #009579;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
