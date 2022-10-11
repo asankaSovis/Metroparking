@@ -7,7 +7,7 @@
 
 **Metroparking** is a next level smart parking system that automates the process of reserving, paying and managing parking services in urban parking providers. It is an IoT based project that uses electronics, autonomous and cloud technologies to create a fully automated system to handle parking.
 
-## Problem Identification
+## ❓ Problem Identification
 
 The main problem we identified with the existing parking systems in the country is the inefficiency of of the implementation. With this, the question arose to us; *How can we improve the effectiveness of existing parking systems?*. Running along with this problem, we built the following issues.
 - Too much manual labour involved
@@ -16,32 +16,30 @@ The main problem we identified with the existing parking systems in the country 
 - Not enough safety when it comes to handing the vehicles
 - Can't book a parking space beforehand
 
-## Our Solution
+## ❗ Our Solution
 
 The solution we came up with is the **Metroparking** project. It initiated with the following vision in mind.
 
-```
-A fully automated, online, smart parking system based on IoT and cloud technologies, capable of assisting the client
-```
+> A fully automated, online, smart parking system based on IoT and cloud technologies, capable of assisting the client
 
-## Objectives
+## 🎯 Objectives
 
 - To build an automated online parking system
 - To allow users to conveniently book reservations online beforehand
 - To allow assisted parking for a safe and convenient experience
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 - Internet of Things (IoT)
 - Cloud Storage
 - Smart Autonomous System
 
-## Architecture
+## 🏗️ Architecture
 
 > ![Architecture](https://user-images.githubusercontent.com/46389631/194903089-4d5731f6-81fd-4b50-a828-e6d9d8fd787f.png)
 > The architecture of the entire project
 
-## Components
+## 💽 Components
 
 ### 1. Central Computer
 - Server PC
@@ -63,7 +61,7 @@ A fully automated, online, smart parking system based on IoT and cloud technolog
 - Servo - Control Gate
 - SONAR - For Safe Parking
 
-## Integrated Features
+## 🧭 Integrated Features
 
 ### 1. Central Computer
 - Controls the complete ecosystem
@@ -86,7 +84,7 @@ A fully automated, online, smart parking system based on IoT and cloud technolog
 - Handles the opening and closing of slot gates
 - Allows the users to safely park their car and leave the slots
 
-## Limitations
+## 🎢 Limitations
 1. Have to fix some operational bugs.
 2. Not implemented on actual parking location
 3. The actual payment gateway is not implemented
@@ -96,10 +94,10 @@ A fully automated, online, smart parking system based on IoT and cloud technolog
 7. Doesn't prevent a user from exceeding their allocated time period
 8. Doesn't allow users to edit their profiles
 
-## Further Improvements
+## 🛠️ Further Improvements
 1. A mobile Application
 2. Implementing the system for multiple slots
 3. Number plate scanning
 4. Allow more flexibility in user accounts
 
-> © Intelligent Technologies
+` © Intelligent Technologies
