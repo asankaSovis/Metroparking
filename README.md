@@ -100,4 +100,4 @@ The solution we came up with is the **Metroparking** project. It initiated with 
 3. Number plate scanning
 4. Allow more flexibility in user accounts
 
-` © Intelligent Technologies
+` © Intelligent Technologies`
