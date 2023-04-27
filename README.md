@@ -5,6 +5,8 @@
 
 ---
 
+*💸 Please consider donating on [Paypal](https://www.paypal.com/donate/?hosted_button_id=4EWXTWQ9FUFLA) to keep this project alive.*
+
 **Metroparking** is a next level smart parking system that automates the process of reserving, paying and managing parking services in urban parking providers. It is an IoT based project that uses electronics, autonomous and cloud technologies to create a fully automated system to handle parking.
 
 ## ❓ Problem Identification
