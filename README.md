@@ -107,5 +107,5 @@ The solution we came up with is the **Metroparking** project. It initiated with 
 > [![Metroparking Demonstration Video](https://user-images.githubusercontent.com/46389631/195007261-abd4d400-fac9-45da-98fa-a0a12163ac2e.png)](https://youtu.be/wTZRGQGPwoQ)
 > Demonstration video of the final product
 
-` © Intelligent Technologies`
+` © 2023, Asanka Sovis`
 
